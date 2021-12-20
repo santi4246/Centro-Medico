@@ -1,0 +1,1 @@
+create type medico from int not null

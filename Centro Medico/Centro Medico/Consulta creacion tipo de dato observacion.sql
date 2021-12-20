@@ -1,0 +1,1 @@
+create type observacion from varchar(1000)
