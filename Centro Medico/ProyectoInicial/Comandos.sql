@@ -61,4 +61,7 @@
 --Resulta necesario darle prioridad de importancia a la agrupación de operadores
 --SELECT * FROM Paciente WHERE apellido = 'Pérez' AND (nombre = 'Roberto' OR idPaciente = 7 OR idPais = 'PER') AND idPaciente IN(6, 3)
 
-EXEC SP_paciente 3
+--Ejecución de Store Procedure:
+--EXEC SP_paciente 3
+
+SELECT * FROM Paciente
