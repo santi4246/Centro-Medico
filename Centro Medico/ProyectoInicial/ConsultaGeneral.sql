@@ -6,6 +6,7 @@ SELECT * FROM TurnoPaciente
 SELECT * FROM Medico
 SELECT * FROM MedicoEspecialidad
 
+SELECT * FROM Especialidad
 
 /*
 SELECT * FROM TablaEjemplo
@@ -16,7 +17,8 @@ dbcc CHECKIDENT ('Medico', RESEED, 0)
 --De esta manera se reinicializa el campo Identity
 */
 
-DELETE FROM TurnoPaciente
-dbcc CHECKIDENT ('TurnoPaciente', RESEED, 0)
+DELETE FROM Medico
+dbcc CHECKIDENT ('Medico', RESEED, 0)
 
---INSERT INTO Medico VALUES('Pablo', 'Ramirez')
+--INSERT INTO Medico VALUES('Raúl', 'Hernández')
+--INSERT INTO Medico VALUES('Pablo', 'Ramírez')
