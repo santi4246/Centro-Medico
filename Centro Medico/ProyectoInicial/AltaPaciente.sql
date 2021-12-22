@@ -1,28 +1,28 @@
-ALTER PROC AltaPaciente(
-	@dni varchar(20),
-	@nombre varchar(50),
-	@apellido varchar(50),
-	@fechaNacimiento varchar(8),
-	@domicilio varchar(50),
-	@idPais char(3),
-	@telefono varchar(20) = '',
-	@email varchar(30),
-	@observacion observacion = ''
-)
+ALTER proc ALTA_Paciente(
+			@dni varchar(20),
+			@nombre varchar(50),
+			@apellido varchar(50),
+			@fnacimiento varchar(8),
+			@domicilio varchar(50),
+			@idpais char(3),
+			@tel varchar(20)='',
+			@email varchar(30),
+			@observacion varchar(1000)=''
+			)
 
-AS
+as
 
-IF NOT EXISTS (SELECT * FROM Paciente WHERE DNI = @dni)
+IF NOT EXISTS(SELECT * from Paciente WHERE dni=@dni)
 BEGIN
-	INSERT INTO Paciente (dni, nombre, apellido, fNacimiento, domicilio, idPais, telefono, email, observacion) --Campos de la tabla
-	VALUES (@dni, @nombre, @apellido, @fechaNacimiento, @domicilio, @idPais, @telefono, @email, @observacion)--Variables especificados en el Store Procedure
-	PRINT 'Datos del paciente registrados correctamente'
-	RETURN
+	INSERT INTO Paciente (dni,nombre,apellido,fnacimiento,domicilio,idpais,telefono,email,observacion)
+	VALUES (@dni,@nombre,@apellido,@fnacimiento,@domicilio,@idpais,@tel,@email,@observacion)
+	print 'El paciente se agregó correctamente'
+	return
 END
 ELSE
 BEGIN
-	PRINT 'El paciente ya ha sido ingresado'
-	RETURN
+	print 'El paciente ya existe.'
+	return
 END
 
---EXEC AltaPaciente '2324324', 'Jorge', 'López', '20180518', 'Calle 1', 'PER', '', 'jorgelopez@gmail.com', ''
+--exec ALTA_Paciente '2324324','Jorge','Lopez','20180518','calle 1','PER','','jorgelopez@gmail.com',''
