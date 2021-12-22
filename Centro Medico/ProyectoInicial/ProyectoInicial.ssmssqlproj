@@ -43,6 +43,12 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>Comandos.sql</FullPath>
         </FileNode>
+        <FileNode Name="ConsultaGeneral.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ConsultaGeneral.sql</FullPath>
+        </FileNode>
         <FileNode Name="Esturcturas de Control.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
