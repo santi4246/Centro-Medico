@@ -4,7 +4,7 @@ ALTER PROC AltaPaciente(
 	@apellido varchar(50),
 	@fechaNacimiento varchar(8),
 	@domicilio varchar(50),
-	@idPais varchar(3),
+	@idPais char(3),
 	@telefono varchar(20) = '',
 	@email varchar(30),
 	@observacion observacion = ''
@@ -25,4 +25,4 @@ BEGIN
 	RETURN
 END
 
-EXEC AltaPaciente '35028893', 'Santiago', 'Romero', '19900207', 'Santos Domínguez 1529', 'ARG', '', 'santiago_pna@hotmail.com', ''
+--EXEC AltaPaciente '2324324', 'Jorge', 'López', '20180518', 'Calle 1', 'PER', '', 'jorgelopez@gmail.com', ''
