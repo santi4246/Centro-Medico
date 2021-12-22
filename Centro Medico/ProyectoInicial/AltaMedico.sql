@@ -20,6 +20,7 @@ BEGIN
 
 	INSERT INTO MedicoEspecialidad(idMedico, idEspecialidad, descripcion)
 	VALUES(@auxIdMedico, @idEspecialidad, @descripcion)
+
 	PRINT 'El Médico ha sido registrado correctamente'
 	RETURN
 END
@@ -31,7 +32,7 @@ BEGIN
 	RETURN
 END
 
-EXEC AltaMedico 'Gerardo', 'Martínez', 1, 'Médico Residente'
+--EXEC AltaMedico 'Gerardo', 'Martínez', 1, 'Médico Residente'
 
 /*
 SELECT * FROM Medico
@@ -47,5 +48,7 @@ dbcc CHECKIDENT ('Medico', RESEED, 0)
 --De esta manera se reinicializa el campo Identity
 */
 
+/*
 INSERT INTO Especialidad VALUES('Clínica Médica')
 SELECT * FROM Especialidad
+*/
