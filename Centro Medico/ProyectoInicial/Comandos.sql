@@ -64,4 +64,8 @@
 --Ejecución de Store Procedure:
 --EXEC SP_paciente 3
 
-SELECT * FROM Paciente
+--Comando SP_HELP: Permite ver de forma rápida la información de un objeto como una tabla o Store Procedure
+--SP_HELP Pais
+
+--Comando SP_HELPTEXT: Sólo recibe un parámetro de tipo Store Procedure
+--SP_HELPTEXT AltaMedico
