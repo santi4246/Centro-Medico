@@ -1,12 +1,13 @@
-ALTER proc ALTA_Medico(
+ALTER PROC AltaMedico(
 			@nombre varchar(50),
 			@apellido varchar(20),
-			@idespecialidad int,
+			@idEspecialidad int,
 			@descripcion varchar(50)
 			)
 
-as
-set nocount on
+AS
+
+SET NOCOUNT ON
 
 IF NOT EXISTS(SELECT TOP 1 idmedico from Medico WHERE nombre=@nombre and apellido = @apellido)
 BEGIN
@@ -14,20 +15,21 @@ BEGIN
 	INSERT INTO Medico (nombre, apellido)
 	VALUES (@nombre,@apellido)
 		
-	declare @auxIdmedico int
-	set @auxIdmedico = @@IDENTITY
+	declare @auxIdMedico int
+	set @auxIdMedico = @@IDENTITY
 
-	INSERT INTO MedicoEspecialidad (Idmedico, idespecialidad,descripcion)
-	VALUES (@auxIdmedico, @idespecialidad,@descripcion)
+	INSERT INTO MedicoEspecialidad (idMedico, idEspecialidad, descripcion)
+	VALUES (@auxIdMedico, @idEspecialidad,@descripcion)
 
-	print 'El Médico se agregó correctamente'
+	print 'Datos del Médico agregados correctamente'
 	return
 
 	
 END
 ELSE
 BEGIN
-	print 'El Médico ya existe.'
+	print 'El Médico ya ha sido registrado.'
 	return
 END
---EXEC ALTA_medico 'Gerardo','Martinez',1,'Medico residente'
+
+--EXEC AltaMedico 'Gerardo','Martínez', 1, 'Médico residente'
