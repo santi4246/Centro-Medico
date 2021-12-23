@@ -17,8 +17,19 @@ dbcc CHECKIDENT ('Medico', RESEED, 0)
 --De esta manera se reinicializa el campo Identity
 */
 
-DELETE FROM Medico
-dbcc CHECKIDENT ('Medico', RESEED, 0)
+DELETE FROM Turno
+dbcc CHECKIDENT ('Turno', RESEED, 0)
 
+/*Médicos*/
 --INSERT INTO Medico VALUES('Raúl', 'Hernández')
 --INSERT INTO Medico VALUES('Pablo', 'Ramírez')
+
+/*Especialidades*/
+--INSERT INTO Especialidad VALUES('Clínica Médica')
+--INSERT INTO Especialidad VALUES('Traumatología')
+
+
+/*Estado Turnos*/
+--INSERT INTO TurnoEstado VALUES(0, 'Pendiente')
+--INSERT INTO TurnoEstado VALUES(1, 'Realizado')
+--INSERT INTO TurnoEstado VALUES(2, 'Cancelado')
