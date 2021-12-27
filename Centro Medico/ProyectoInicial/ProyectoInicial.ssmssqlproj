@@ -91,11 +91,17 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>Sentencias.sql</FullPath>
         </FileNode>
-        <FileNode Name="ST_TurnoPaciente.sql">
+        <FileNode Name="SP_HistoriaPaciente.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
-          <FullPath>ST_TurnoPaciente.sql</FullPath>
+          <FullPath>SP_HistoriaPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_TurnoPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SP_TurnoPaciente.sql</FullPath>
         </FileNode>
         <FileNode Name="Stored Procedure.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
