@@ -17,8 +17,8 @@ dbcc CHECKIDENT ('Medico', RESEED, 0)
 --De esta manera se reinicializa el campo Identity
 */
 
-DELETE FROM Turno
-dbcc CHECKIDENT ('Turno', RESEED, 0)
+DELETE FROM Paciente
+dbcc CHECKIDENT ('Paciente', RESEED, 0)
 
 /*Médicos*/
 --INSERT INTO Medico VALUES('Raúl', 'Hernández')
