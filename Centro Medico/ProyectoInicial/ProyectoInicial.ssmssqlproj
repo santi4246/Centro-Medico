@@ -145,6 +145,18 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>Transacciones.sql</FullPath>
         </FileNode>
+        <FileNode Name="Triggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Triggers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VistasScript.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>VistasScript.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
