@@ -91,6 +91,12 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>Sentencias.sql</FullPath>
         </FileNode>
+        <FileNode Name="SP_EliminarTurno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SP_EliminarTurno.sql</FullPath>
+        </FileNode>
         <FileNode Name="SP_EspecialidadMedica.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
