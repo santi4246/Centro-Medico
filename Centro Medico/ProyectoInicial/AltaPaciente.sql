@@ -27,4 +27,6 @@ BEGIN
 	RETURN
 END
 
---EXEC AltaPaciente '2324324','Jorge','Lopez','20180518','calle 1','PER','','jorgelopez@gmail.com',''
+--EXEC AltaPaciente '17289145','Eduardo','Altamirano','19890615','calle 2','COL','3924789156','edu@live.com','Paciente hipertenso'
+--EXEC AltaPaciente '32948180','Alicia','Valenzuela','19780407','calle 3','ARG','3434654198','aliciamaravilla@gmail.com','Paciente sin diagnóstico'
+--EXEC AltaPaciente '29849665','María','Ramírez','19921008','calle 4','MEX','3784956182','mari_ram@hotmail.com','Paciente análisis de sangre'
