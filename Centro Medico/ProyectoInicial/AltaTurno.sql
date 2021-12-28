@@ -37,4 +37,4 @@ BEGIN
 	return
 END
 
---EXEC AltaTurno '20190218 09:15', 1, 1,'Observación'
+--EXEC AltaTurno '20211228 09:15', 1, 1,'Observación'
