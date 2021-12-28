@@ -184,3 +184,69 @@ PRINT CONVERT(char(8), @fecha, 112) -- Devuelve el formato de fecha en YYYY-MM-D
 PRINT CONVERT(char(8), @fecha, 104) -- Devuelve el formato de fecha en DD-MM-YYYY '24.12.2021'
 PRINT CONVERT(char(8), @fecha, 111) -- Devuelve el formato de fecha en YYYY-MM-DD '2021/12/24'
 */
+
+/*
+Funciones Escalares
+Permite retornar un valor mediante el proceso de una función interna
+
+CREATE FUNCTION Concatenar(
+	@apellido varchar(50),
+	@nombre varchar(50)
+)
+RETURNS varchar(100)
+
+AS
+
+BEGIN
+	DECLARE @Resultado varchar(100)
+	SET @Resultado = @apellido + ', ' + @nombre
+	RETURN @Resultado
+END
+
+SELECT dbo.Concatenar('López', 'Roberto')
+
+CREATE FUNCTION ObtenerPais(
+	@idPaciente Paciente
+)
+RETURNS varchar(50)
+
+AS
+
+BEGIN
+	DECLARE @Pais varchar(50)
+	SET @Pais = (SELECT PA.Pais FROM Paciente P
+					INNER JOIN Pais PA
+					ON PA.idPais = P.idPais
+					WHERE idPaciente = @idPaciente)
+	RETURN @Pais
+END
+
+SELECT dbo.ObtenerPais(1)
+*/
+
+/*
+Funciones de Tipo Tabla
+Permite retornar los registros de una tabla de forma temporal mediante el proceso interno de una función.
+
+ALTER FUNCTION listaPaises()
+RETURNS @paises TABLE(
+	idPais char(3),
+	Pais varchar(50)
+)
+AS
+BEGIN
+	INSERT INTO @paises VALUES ('ARG', 'ARGENTINA')
+	INSERT INTO @paises VALUES('BOL', 'BOLIVIA')
+	INSERT INTO @paises VALUES ('BRA', 'BRASIL')	
+	INSERT INTO @paises VALUES('CHI', 'CHILE')
+	INSERT INTO @paises VALUES('COL', 'COLOMBIA')
+	INSERT INTO @paises VALUES('ECU', 'ECUADOR')
+	INSERT INTO @paises VALUES('MEX', 'MEXICO')	
+	INSERT INTO @paises VALUES('PAR', 'PARAGUAY')
+	INSERT INTO @paises VALUES('PER', 'PERU')
+	INSERT INTO @paises VALUES('URU', 'URUGUAY')
+	RETURN
+END
+
+SELECT * FROM dbo.listaPaises()
+*/
