@@ -43,11 +43,11 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>AltaTurno.sql</FullPath>
         </FileNode>
-        <FileNode Name="Backup.sql">
+        <FileNode Name="BackupSQL.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
-          <FullPath>Backup.sql</FullPath>
+          <FullPath>C:\Backup_CentroMedico\BackupSQL.sql</FullPath>
         </FileNode>
         <FileNode Name="Cláusulas Join.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
