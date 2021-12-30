@@ -1,0 +1,1 @@
+SQLCMD -s .\192.168.0.7 -i C:\Users\santi\Documents\Programación\SQL Server\Cursos\Master en SQL Server\02 - Centro Medico\Centro Medico\ProyectoInicial\JOB_CancelacionTurnosVencidos.sql
