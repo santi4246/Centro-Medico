@@ -3,6 +3,18 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="DESKTOP-UCTHF8J:Administrador1">
+          <Created>2021-12-30T19:40:49.1385532-03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-UCTHF8J</Server>
+          <UserName>Administrador1</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CentroMedico</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="DESKTOP-UCTHF8J:sa">
           <Created>2021-11-03T11:48:53.4819557-03:00</Created>
           <Type>SQL</Type>
@@ -14,6 +26,18 @@
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="DESKTOP-UCTHF8J:Santiago">
+          <Created>2021-12-30T19:59:59.6056143-03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-UCTHF8J</Server>
+          <UserName>Santiago</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CentroMedico</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
       </Items>
     </LogicalFolder>
@@ -68,9 +92,9 @@
           <FullPath>Comandos.sql</FullPath>
         </FileNode>
         <FileNode Name="ConsultaGeneral.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:Santiago</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
-          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <AssociatedConnUserName>Santiago</AssociatedConnUserName>
           <FullPath>ConsultaGeneral.sql</FullPath>
         </FileNode>
         <FileNode Name="Estructuras de Control.sql">
@@ -102,6 +126,12 @@
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>Operadores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Roles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:Santiago</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
+          <AssociatedConnUserName>Santiago</AssociatedConnUserName>
+          <FullPath>Roles.sql</FullPath>
         </FileNode>
         <FileNode Name="Sentencias.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
