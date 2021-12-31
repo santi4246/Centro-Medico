@@ -128,9 +128,9 @@
           <FullPath>Operadores.sql</FullPath>
         </FileNode>
         <FileNode Name="Roles.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:Santiago</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
-          <AssociatedConnUserName>Santiago</AssociatedConnUserName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>Roles.sql</FullPath>
         </FileNode>
         <FileNode Name="Sentencias.sql">
