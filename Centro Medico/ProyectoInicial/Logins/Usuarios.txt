@@ -3,3 +3,9 @@ Pass: _Admin2021
 
 User: Santiago
 Pass: _Admin2021
+
+User: Marcelo
+Pass: _Admin2021
+
+User: Juan
+Pass: _Admin2021
