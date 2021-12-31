@@ -115,6 +115,12 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>Function_FechaTexto.sql</FullPath>
         </FileNode>
+        <FileNode Name="Importación de Datos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Importación de Datos.sql</FullPath>
+        </FileNode>
         <FileNode Name="JOB_CancelacionTurnosVencidos.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
