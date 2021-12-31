@@ -12,3 +12,14 @@ Ver: Vídeo N° 184 y 185 del Máster
 SELECT * FROM Paciente
 SELECT * FROM Pais
 SELECT * FROM Turno
+
+CREATE ROLE Pagos AUTHORIZATION dbo
+ALTER ROLE Pagos ADD MEMBER Marcelo
+
+
+/*
+Esquemas
+
+ALTER SCHEMA Facturacion TRANSFER Pais
+ALTER SCHEMA Facturacion TRANSFER Medico
+*/
