@@ -19,6 +19,8 @@ ALTER ROLE Pagos ADD MEMBER Marcelo
 
 /*
 Esquemas
+Un esquema es un espacio de nombres que permite agrupar objetos como tablas, vistas, SP, etc. Si queremos que un usuario o área de trabajo sólo pueda visualizar determinadas
+tablas, podemos hacerlo bajo un esquema de trabajo.
 
 ALTER SCHEMA Facturacion TRANSFER Pais
 ALTER SCHEMA Facturacion TRANSFER Medico
