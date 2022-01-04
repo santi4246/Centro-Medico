@@ -14,6 +14,16 @@ AS
 
 SET NOCOUNT ON
 
+-- Generación de retardo en milisegundos para comprobación de Traza en SQL Server Profiler
+
+DECLARE @a bigint = 0
+WHILE @a <= 15000000
+	SET @a = @a + 1
+
+-- Mediante una Traza podemos realizar la comprobación de los Store Procedure y otros objetos de SQL Server y guardarlos como tablas para futuras referencias
+-- SELECT * FROM TrazaMaster
+
+
 IF NOT EXISTS(SELECT * from Paciente WHERE DNI = @DNI)
 BEGIN
 	INSERT INTO Paciente (DNI, nombre, apellido, fechaNacimiento, domicilio, idPais, telefono, email, observacion)
