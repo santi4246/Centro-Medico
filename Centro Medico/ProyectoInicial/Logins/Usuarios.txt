@@ -1,11 +1,13 @@
-User: Administrador1
+Primero debe crearse un perfil de Login en la instancia de Servidor
+para luego utilizarse como usuario en la Base de Datos.-
+
+
+
+User: Administrador1 (Especialidad)
 Pass: _Admin2021
 
-User: Santiago
+User: Administrador2 (Turnos)
 Pass: _Admin2021
 
-User: Marcelo
-Pass: _Admin2021
-
-User: Juan
+User: Administrador3 (Facturación)
 Pass: _Admin2021
