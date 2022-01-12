@@ -32,4 +32,8 @@ BEGIN
 	return
 END
 
---EXEC AltaMedico 'Gerardo','Martínez', 1, 'Médico residente'
+--EXEC AltaMedico 'Alfonso Juan','Ramírez', 1, 'Médico residente'
+--EXEC AltaMedico 'Sebastián Manuel','Reyes', 4, 'Médico residente'
+--EXEC AltaMedico 'Aldo Norberto','Pérez', 5, 'Médico Generalista'
+--EXEC AltaMedico 'Claudia Noemí','Villegas', 8, 'Médico Clínico'
+--EXEC AltaMedico 'Ana María','Tolosa', 7, 'Médico residente'
