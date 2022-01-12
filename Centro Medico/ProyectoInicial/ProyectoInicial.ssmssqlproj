@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="DESKTOP-UCTHF8J:Administrador3">
+          <Created>2022-01-12T11:18:51.216812-03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-UCTHF8J</Server>
+          <UserName>Administrador3</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CentroMedico</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="DESKTOP-UCTHF8J:sa">
           <Created>2021-11-03T11:48:53.4819557-03:00</Created>
           <Type>SQL</Type>
@@ -92,10 +104,16 @@
           <FullPath>Comandos.sql</FullPath>
         </FileNode>
         <FileNode Name="ConsultaGeneral.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:Santiago</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
-          <AssociatedConnUserName>Santiago</AssociatedConnUserName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>ConsultaGeneral.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ejercicioFinal.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UCTHF8J</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ejercicioFinal.sql</FullPath>
         </FileNode>
         <FileNode Name="Estructuras de Control.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UCTHF8J:False:sa</AssociatedConnectionMoniker>
