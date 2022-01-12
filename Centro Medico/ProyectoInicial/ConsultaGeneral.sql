@@ -18,7 +18,7 @@ dbcc CHECKIDENT ('Medico', RESEED, 0)
 */
 
 DELETE FROM Especialidad
-dbcc CHECKIDENT ('Especialidad', RESEED, 0)
+dbcc CHECKIDENT ('dbo.Pais', RESEED, 0)
 
 /*Médicos*/
 --INSERT INTO Medico VALUES('Raúl', 'Hernández')
