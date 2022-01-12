@@ -3,7 +3,7 @@ SELECT * FROM Paciente
 SELECT * FROM Turno
 SELECT * FROM TurnoPaciente
 
-SELECT * FROM Medico
+SELECT * FROM Facturacion.Medico
 SELECT * FROM MedicoEspecialidad
 
 SELECT * FROM Especialidad
@@ -17,8 +17,8 @@ dbcc CHECKIDENT ('Medico', RESEED, 0)
 --De esta manera se reinicializa el campo Identity
 */
 
-DELETE FROM Paciente
-dbcc CHECKIDENT ('Paciente', RESEED, 0)
+DELETE FROM Especialidad
+dbcc CHECKIDENT ('Especialidad', RESEED, 0)
 
 /*Médicos*/
 --INSERT INTO Medico VALUES('Raúl', 'Hernández')
