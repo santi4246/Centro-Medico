@@ -16,12 +16,15 @@ SELECT * FROM Turno
 CREATE ROLE Pagos AUTHORIZATION dbo
 ALTER ROLE Pagos ADD MEMBER Administrador3
 
+ALTER SCHEMA DBO TRANSFER Facturacion.Pais
+ALTER SCHEMA DBO TRANSFER Facturacion.Medico
+
 
 /*
 Esquemas
 Un esquema es un espacio de nombres que permite agrupar objetos como tablas, vistas, SP, etc. Si queremos que un usuario o área de trabajo sólo pueda visualizar determinadas
 tablas, podemos hacerlo bajo un esquema de trabajo.
 
-ALTER SCHEMA Facturacion TRANSFER Pais
-ALTER SCHEMA Facturacion TRANSFER Medico
+ALTER SCHEMA DBO TRANSFER Pais
+ALTER SCHEMA DBO TRANSFER Medico
 */
