@@ -16,6 +16,9 @@ SELECT * FROM Turno
 CREATE ROLE Pagos AUTHORIZATION dbo
 ALTER ROLE Pagos ADD MEMBER Administrador3
 
+ALTER SCHEMA Facturacion TRANSFER dbo.Pais
+ALTER SCHEMA Facturacion TRANSFER dbo.Medico
+
 ALTER SCHEMA DBO TRANSFER Facturacion.Pais
 ALTER SCHEMA DBO TRANSFER Facturacion.Medico
 
