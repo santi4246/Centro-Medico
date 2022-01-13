@@ -37,6 +37,26 @@ BEGIN
 	RETURN
 END
 
---EXEC AltaPaciente '17289145','Eduardo','Altamirano','19890615','calle 2','COL','3924789156','edu@live.com','Paciente hipertenso'
---EXEC AltaPaciente '32948180','Alicia','Valenzuela','19780407','calle 3','ARG','3434654198','aliciamaravilla@gmail.com','Paciente sin diagnóstico'
---EXEC AltaPaciente '29849665','María','Ramírez','19921008','calle 4','BRA','3784956182','mari_ram@hotmail.com','Paciente análisis de sangre'
+EXEC AltaPaciente '45195444','María Luz','Schroeder','20180419','calle 2','ARG','155198459','mari_solcito@live.com.ar','Control Natal'
+EXEC AltaPaciente '36648329','Fenicia Caren','Patat','19920315','Azcuénaga 1589','ARG','154498736','feniconaguante@yahoo.com.ar','Control Presión Arterial'
+EXEC AltaPaciente '91742186','Juan Carlos','Ceballos','19470918','Salvador Dalí 1279','BOL','559488724','juan1ce@hotmail.com','Control Metástasis'
+EXEC AltaPaciente '92589447','Johannes','Da Silva','19631023','Edificio Coconuts 14B','BRA','779127983','laverdeamarela@gmail.com','Paciente dado de Alta'
+EXEC AltaPaciente '35647154','Ludmila Anastasia','Schmidt','19980609','Arrayanes 245','ARG','154794521','lafachaludmi@live.com','Control embarazo'
+EXEC AltaPaciente '93159487','Laura Patricia','Ramírez','19900824','BV Andes Patagónicos 1660','CHI','948526213','lov4ever@gmail.com','Control embarazo'
+EXEC AltaPaciente '94649855','Alejandro Miguel','Sánchez Taboada','19970210','Los Frutales 15B','PER','495162195','programacionats@hotmail.com','Paciente dado de Alta'
+EXEC AltaPaciente '38499557','Brian Kevin','Álvarez','20080727','María Sierra 359','ARG','499125488','brikevin@hotmail.com','Consulta General'
+EXEC AltaPaciente '6498623','Patricia Alma','González','19561214','Federación 390','ARG','156729845','almapato@live.com','Control Neurológico'
+EXEC AltaPaciente '94498859','Romualdo Carlos','Brites','19790528','Racedo 760','Paraguay','195428454','guarani4ever@yahoo.com.ar','Paciente dado de Alta'
+
+EXEC AltaPaciente 'DNI','Nombre','Apellido','fechaNacimiento','Domicilio','Código País','teléfono','email','Observación'
+
+
+
+
+/*
+SELECT * FROM Paciente
+
+DELETE FROM Paciente
+DELETE FROM PacienteLog
+dbcc CHECKIDENT ('dbo.Paciente', RESEED, 0)
+*/
