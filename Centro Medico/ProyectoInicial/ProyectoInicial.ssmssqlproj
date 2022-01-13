@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="DESKTOP-UCTHF8J:Administrador2">
+          <Created>2022-01-13T18:19:48.9464327-03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-UCTHF8J</Server>
+          <UserName>Administrador2</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CentroMedico</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="DESKTOP-UCTHF8J:Administrador3">
           <Created>2022-01-12T11:18:51.216812-03:00</Created>
           <Type>SQL</Type>
