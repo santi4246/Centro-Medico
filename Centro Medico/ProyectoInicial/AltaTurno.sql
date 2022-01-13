@@ -38,3 +38,14 @@ BEGIN
 END
 
 --EXEC AltaTurno '20211228 09:15', 1, 1,'Observación'
+--EXEC AltaTurno 'Fecha', idPaciente, idMedico,'Observación'
+SELECT * FROM Turno
+
+
+EXEC AltaTurno '20220120 09:00', 5, 5, 'Turno Pendiente'
+EXEC AltaTurno '20220120 09:15', 1, 4, 'Turno Pendiente'
+EXEC AltaTurno '20220121 10:15', 8, 3, 'Turno Pendiente'
+EXEC AltaTurno '20220121 10:30', 9, 1, 'Turno Pendiente'
+EXEC AltaTurno '20220121 10:00', 3, 2, 'Turno Pendiente'
+EXEC AltaTurno '20220122 09:00', 6, 5, 'Turno Pendiente'
+EXEC AltaTurno '20220122 09:30', 2, 3, 'Turno Pendiente'
